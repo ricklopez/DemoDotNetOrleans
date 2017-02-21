@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoDotNetOrleans.Silo", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoDotNetOrleans.Interfaces", "DemoDotNetOrleans.Interfaces\DemoDotNetOrleans.Interfaces.csproj", "{B5E7DC29-C6CF-46E2-BB5D-8010043CFD34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoDotNetOrleans.Grains", "DemoDotNetOrleans.Grains\DemoDotNetOrleans.Grains.csproj", "{2DF7C517-86C9-4F0F-941A-81EA81443FCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B5E7DC29-C6CF-46E2-BB5D-8010043CFD34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5E7DC29-C6CF-46E2-BB5D-8010043CFD34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5E7DC29-C6CF-46E2-BB5D-8010043CFD34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DF7C517-86C9-4F0F-941A-81EA81443FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF7C517-86C9-4F0F-941A-81EA81443FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF7C517-86C9-4F0F-941A-81EA81443FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF7C517-86C9-4F0F-941A-81EA81443FCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
