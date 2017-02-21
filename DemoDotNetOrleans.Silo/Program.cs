@@ -1,6 +1,6 @@
 using System;
 using System.Threading.Tasks;
-
+using DemoDotNetOrleans.Interfaces;
 using Orleans;
 using Orleans.Runtime.Configuration;
 
@@ -29,6 +29,8 @@ namespace DemoDotNetOrleans.Silo
             //       This is the place your custom logic, for example calling client logic
             //       or initializing an HTTP front end for accepting incoming requests.
 
+            var friend = GrainClient.GrainFactory.GetGrain<IGrain1>(Guid.NewGuid());
+            Console.WriteLine("\n\n{0}\n\n", friend.SayHello().Result);
             Console.WriteLine("Orleans Silo is running.\nPress Enter to terminate...");
             Console.ReadLine();
 

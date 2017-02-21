@@ -8,6 +8,6 @@ namespace DemoDotNetOrleans.Interfaces
     /// </summary>
 	public interface IGrain1 : IGrainWithGuidKey
     {
-
+        Task<string> SayHello();
     }
 }

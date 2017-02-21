@@ -105,6 +105,16 @@
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.1.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.1.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DemoDotNetOrleans.Grains\DemoDotNetOrleans.Grains.csproj">
+      <Project>{98d934d5-8337-491d-9eaf-b3af3d4067b4}</Project>
+      <Name>DemoDotNetOrleans.Grains</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DemoDotNetOrleans.Interfaces\DemoDotNetOrleans.Interfaces.csproj">
+      <Project>{b5e7dc29-c6cf-46e2-bb5d-8010043cfd34}</Project>
+      <Name>DemoDotNetOrleans.Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
